@@ -1,0 +1,81 @@
+/*------------------------------------*\
+  #KEYFEATURE SECTION
+\*------------------------------------*/
+
+.keyfeature-section {
+  height: 848px;
+
+  position: relative;
+  z-index: 1s;
+}
+
+.keyfeature-section__bg-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  z-index: -1;
+}
+.keyfeature-section__bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.keyfeature-section__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  margin: 0 215px;
+}
+
+.keyfeature-section__content-article {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: $text-color-keyfeature-section__content-article;
+}
+
+.keyfeature-section__content-aritcle-title {
+  font-size: 25px;
+  padding-bottom: 25px;
+  font-family: "Gotham-Book";
+  text-transform: uppercase;
+}
+
+.keyfeature-section__content-article-paragraph {
+  line-height: 1.5;
+  padding-bottom: 40px;
+}
+
+.keyfeature-section__content-article-features {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  height: 38px;
+
+  font-size: 20px;
+  font-weight: 400;
+  padding-left: 20px;
+  margin-bottom: 20px;
+  background-color: $features-bg-color;
+}
+
+.keyfeature-section__content-article-features--1 {
+  width: 370px;
+}
+.keyfeature-section__content-article-features--2 {
+  width: 400px;
+}
+
+.keyfeature-section__content-article-features--3 {
+  width: 428px;
+}
+.keyfeature-section__content-phone-image {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,67 @@
+/*------------------------------------*\
+  #NEWS-SECTION
+\*------------------------------------*/
+
+.news-section {
+  height: 948px;
+  display: flex;
+  flex-direction: column;
+}
+
+.news-section__figure {
+  display: flex;
+  height: 50%;
+  &:nth-child(1) {
+    flex-direction: row-reverse;
+
+    color: $text-color-news-section-frist-figure;
+    background-color: $color-news-section-first-figure-bg;
+  }
+}
+
+.news-section__figure-picture {
+  display: flex;
+  width: 50%;
+  height: 100%;
+}
+.news-section__figure-image {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.news-section__figure-figcaption {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+.news-section__figure-figcaption--padding-right {
+  padding-right: 215px;
+  padding-left: 50px;
+}
+
+.news-section__figure-figcaption--padding-left {
+  padding-left: 215px;
+  padding-right: 50px;
+}
+
+.news-section__figure-figcaption-date {
+  font-family: "Gotham-Book";
+  font-size: 15px;
+  padding-bottom: 10px;
+}
+
+.news-section__figure-figcaption-title {
+  font-family: "Gotham-Book";
+  text-transform: uppercase;
+  font-size: 25px;
+  padding-bottom: 30px;
+}
+
+.news-section__figure-figcaption-paragraph {
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.4;
+}

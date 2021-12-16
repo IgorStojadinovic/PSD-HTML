@@ -1,0 +1,16 @@
+/*------------------------------------*\
+  #FOOTER
+\*------------------------------------*/
+
+.footer {
+  display: flex;
+  justify-content: center;
+
+  height: 114px;
+  background-color: $footer-bg-color;
+}
+
+.footer__figure {
+  display: flex;
+  align-self: center;
+}

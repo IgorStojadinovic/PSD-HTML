@@ -1,0 +1,66 @@
+/*------------------------------------*\
+  #MAIN SECTION
+\*------------------------------------*/
+
+.main-section {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+.header__main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 15%;
+}
+
+.header__main-container-main-heading {
+  font-family: "Gotham-Bold";
+  font-size: 152px;
+  color: $color-main-heading;
+}
+
+.hearder__main-secondary-heading {
+  font-family: "Gotham-Book";
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 20px;
+  font-size: 24px;
+  color: $color-main-secondary-heading;
+}
+
+.header__main-scroll-down {
+  margin-top: 8%;
+  font-size: 13px;
+  color: $color-scroll-down;
+}
+
+.header__main-scroll-down-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  border: 2px solid $navigation-circle-border-color;
+  height: 100px;
+  width: 100px;
+  margin-top: 20px;
+  border-radius: 50%;
+  color: $color-main-heading-arrow-down;
+}
+
+.fa-angle-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  transition: all 0.5s ease-in-out;
+  &:hover {
+    transform: translateY(15px);
+  }
+}

@@ -1,0 +1,27 @@
+/*------------------------------------*\
+  #QUICK ACTION AREA
+\*------------------------------------*/
+
+.quick-action-section {
+  height: 355px;
+  background-color: $background-clor-quick-action-section;
+}
+
+.quick-action-section__content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 0 11.3%;
+}
+
+.quick-action-section__figure {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  line-height: 1.6;
+  color: $text-color-quick-action-section-figure;
+}

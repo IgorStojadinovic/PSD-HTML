@@ -1,0 +1,74 @@
+/*------------------------------------*\
+  #TEAM SECTION
+\*------------------------------------*/
+
+.team-section {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  height: 944px;
+}
+
+.team-section__article-main-heading {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30%;
+  z-index: 1;
+}
+
+.team-section__article-big-letter {
+  position: absolute;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  font-size: 300px;
+  z-index: -1;
+  color: $team-section-big-letter;
+}
+
+.team-section__article-secondary-heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+  font-size: 34.55px;
+  height: 100%;
+}
+
+.team-section__article-paragraph {
+  position: relative;
+  font-size: 25px;
+  top: 15%;
+}
+
+.team-section__article-cards {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 11.3%;
+  height: 70%;
+}
+
+.team-section__article-cards-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.team-section__article-cards-figcaption {
+  position: absolute;
+  text-align: center;
+  top: 90%;
+  width: 216px;
+  background-color: $background-color-team-section-figcaption;
+}
+.team-section__article-cards-name {
+  padding: 15px 0;
+  color: $team-section-figcaption-name;
+  :nth-child(n) {
+    color: $team-section-figcaption-profesion;
+  }
+}
